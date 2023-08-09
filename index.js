@@ -7,7 +7,7 @@ const shoppingList = [];
 addButtonEl.addEventListener("click", function () {
   let inputValue = inputFieldEl.value;
   if (inputValue.trim() === "") {
-    console.log("Please enter a value!");
+    alert("Please enter a value!");
     return;
   }
   appendItemSound();
