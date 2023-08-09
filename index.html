@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add to Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="images/x-icon" href="./images/crabrelicon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/crabcion.svg" />
+      <input type="text" id="input-field" placeholder="Add item" />
+      <button id="add-button">Add to cart</button>
+      <audio id="add-item-sound">
+        <source
+          src="./sounds/mixkit-page-forward-single-chime-1107.wav"
+          type="audio/wav"
+        />
+      </audio>
+      <ul id="shopping-list"></ul>
+      <button id="clear-button">Clear List</button>
+      <audio id="remove-item-sound">
+        <source
+          src="./sounds/mixkit-page-back-chime-1108.wav"
+          type="audio/wav"
+        />
+      </audio>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
