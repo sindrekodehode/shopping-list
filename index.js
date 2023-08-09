@@ -25,6 +25,7 @@ addButtonEl.addEventListener("click", function () {
 
 clearButtonEl.addEventListener("click", function () {
   removeItemSound();
+  shoppingList.length = 0;
   localStorage.clear();
   clearShoppingListEl();
 });
